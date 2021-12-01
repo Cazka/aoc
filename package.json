@@ -1,0 +1,28 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "my solutions for https://adventofcode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cazka/aoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cazka/aoc/issues"
+  },
+  "homepage": "https://github.com/Cazka/aoc#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  }
+}

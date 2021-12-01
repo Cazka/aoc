@@ -1,2 +1,3 @@
 # aoc
-my solutions for https://adventofcode.com/2021
+
+Sharing my solutions in typescript for https://adventofcode.com/
