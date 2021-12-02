@@ -24,7 +24,7 @@ async function getInput(year: string, day: string): Promise<string> {
         throw new Error(`couldn't get input from ${URL}`);
     }
 
-    return body;
+    return body.trim();
 }
 
 async function main() {
