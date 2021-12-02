@@ -1,4 +1,4 @@
-import { Solver } from '../solver';
+import { Solver } from 'solver';
 
 export const solver: Solver = { part1, part2 };
 
