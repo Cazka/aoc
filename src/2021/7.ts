@@ -22,7 +22,7 @@ function part2(input: string): number {
     let biggestValue = values.reduce((acc, x) => Math.max(acc, x));
     let cheapest = Infinity;
 
-    for (let i = 0; i < biggestValue; i++) {
+    for (let i = 0; i <= biggestValue; i++) {
         const fuel = values.reduce((acc, x) => acc + sumGauss(Math.abs(x - i)), 0);
         if (fuel < cheapest) {
             cheapest = fuel;
